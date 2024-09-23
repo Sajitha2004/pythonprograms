@@ -1,0 +1,431 @@
+""" a =input("Enter Your First_Name: ")
+print("my first name is : ",a)
+b = input("Enter Your Last_Name: ")
+print("my last name is : ",b)
+c = input("Enter Your Phone_number: ")
+print("my phone number is : ",c)
+d = input("Enter Your Email_id: ")
+print("my email id is : ",d)
+e = input("Enter Your DOB: ")
+print("my DOB is : ",e)
+f = input("Enter Your Age: ")
+print("my age is : ",f )
+g = input("Enter Your Address: ")
+print("my address is : ",g)
+h = input("Enter Your Pincode: ")
+print("my pincode is : ",h)
+i = input("Enter Your 12th mark in percentage: ")
+print("my 12th percentage is : ",i)
+j = input("Enter Your Degree_mark in CGPA: ")
+print("my mark is :",j)"""
+
+'''a=b=c="Doreamon"
+print(a)
+print(b)
+print(c)'''
+'''Name = "sajitha"
+Reg_number = "123456987"
+Address = "xyz"
+DOB = "16-05-2004"
+def mydata():
+    print("my data is ",Name)
+def mynum():
+    print("my Reg_number is ", Reg_number)
+def myaddress():
+    print("my address is ",Address)
+def mydob():
+    print("my dob is ",DOB)
+
+
+mydata()
+mynum()
+myaddress()
+mydob()'''
+
+
+'''def mydata():
+    Name = "sajitha"
+    print("my name is ",Name)
+mydata()'''
+
+
+'''
+def factorial(n):
+    if (n==0 or n==1):
+        return 1
+    else:
+       return ( n * factorial(n-1))
+n=5
+print("number :", n)
+print("factorial :", factorial(n))'''
+'''Name="dddd"
+i= len(Name)
+print( "size of the string is : ", i)'''
+
+#method & funtion
+
+'''Name="sajitha is  a  student"
+
+a= Name[1]
+print(a)
+
+b= Name[1:]
+print(b)
+c= Name[:5]
+print(c)
+
+startswith = Name.startswith("stu")
+print(type(startswith))
+print(startswith)
+
+endswith = Name.endswith("tha")
+print(endswith)
+
+find = Name.find("h")
+print(find)
+
+rfind = Name.rfind("j")
+print(rfind)
+
+count = Name.count("i")
+print(count)
+
+Name_count=Name.count("student")
+print(Name_count)
+
+capitalize = Name.capitalize()
+print(capitalize)
+
+upper= Name.upper()
+print(upper)
+
+lower= Name.lower()
+print(lower)
+
+index= Name.index("j")
+print(index)
+
+rindex= Name.rindex("a")
+print(rindex)
+
+Name = "kuttyma"
+isupper  = Name.isupper()
+print(isupper)
+
+Name="KUTTYMA"
+isupper=Name.isupper()
+print(isupper)
+
+Name = "kuttyma"
+islower  = Name.islower()
+print(islower)
+
+Name = "kUTTYMA"
+islower  = Name.islower()
+print(islower)
+
+Name=" siva "
+strip= Name.strip()
+print(strip)
+
+Name=" siva"
+lstrip= Name.lstrip()
+print(lstrip)
+
+Name="siva "
+rstrip= Name.rstrip()
+print(rstrip)
+
+Name = "XYZ123"
+isalnum=Name.isalnum()
+print(isalnum)
+
+Name = "123"
+isalnum=Name.isalnum()
+print(isalnum)
+
+Name = "saji"
+isalpha=Name.isalpha()
+print(isalpha)
+
+Name = "032"
+isnumeric=Name.isnumeric()
+print(isnumeric)
+
+Name = "python is programming"
+split=Name.split()
+print(split)
+
+Name = "python is programming"
+split=Name.split("h")
+print(split)'''
+
+'''#string
+x="python"
+def myprogramme():
+    global x
+    x="java"
+    print(x)
+myprogramme()
+print("'python is a' programme")'''
+
+'''def myName(name):
+    print("my name is ",name)
+
+def myAge(age,dob):
+    print("my age is ", age)
+    print(dob)
+def number(register_number):
+    print("my register number is ",register_number)
+def phone(phone_number):
+    print("my phone number is ",phone_number)
+
+
+myName("saji")
+myAge(20,"01/01/2004")
+number(732621205046)
+phone(9876543210)
+
+
+print(10>51)
+print(10==10)
+print(10<11)'''
+'''def votingEligible(age):
+    if age>=18:
+      print("Eligible to vote")
+    else:
+        print("Not eligible to vote")
+votingEligible(5)'''
+
+'''def phoneName(phone):
+    if phone == "vivo":
+      print("vivo is available")
+    elif phone == "oppo":
+       print("oppo is available")
+    else:
+       print("vivo is not available.")
+phoneName("oppo")'''
+#while  condition
+'''a=1
+while a<=5:
+    print(a)
+    a=a+1 '''
+'''
+#for loop
+for i in range(10):
+    print(i)
+
+for i in range(1,5):
+    print(i)
+for i in range(1,3,-10):
+    print(i)'''
+'''#oddfind
+for i in range(1,100,2):
+    print(i)
+#even find
+for i in range(0,100,2):
+    print(i)'''
+#while even
+'''i=1
+while(i<=20):
+    if(i%2==0):
+         print(i)
+    i=i+1
+#while even
+i=1
+while(i<=20):
+    if(i%2==1):
+         print(i)
+    i=i+1'''
+
+#n number
+'''n=int(input("enter n: "))
+for i in range(1,n):
+ print(i)
+ #sum of natural num
+sum = 0
+for i in range(1,n+1):
+ sum += i
+ print(sum)'''
+
+
+'''n=5
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        print(j,end=" ")
+    print()
+print("==========")
+
+
+n=5
+for j in range(n, 0, -1):
+    for i in range(1,j+1):
+        print(i,end=" ")
+    print()
+print("======== positive integer factrial n=========")'''
+
+
+'''def factorial(n):
+    factorial = 1
+    for i in range(1, n + 1):
+        factorial *= i
+    return factorial
+n = int(input("Enter a positive integer: "))
+print(f"The factorial {n} is  factorial{n}")'''
+
+
+'''
+n=int(input("enter the number:"))
+factorial=1
+for i in range(1,n+1):
+    factorial=factorial*i
+print(factorial)'''
+
+'''arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+odd_count = 0
+even_count = 0
+for num in arr:
+    if num % 2 == 0:
+        even_count += 1
+    else:
+        odd_count += 1
+print(f"Odd numbers: {odd_count}")
+print(f"Even numbers: {even_count}")'''
+
+
+'''def number(a,b,c):
+ if a > b and a>c:
+  print("The largest number is:",a)
+ elif b>a and b>c:
+  print("The largest number is:",b)
+ else:
+  print("The largest number is:", c)
+number(int(input("Enter a:")),int(input("Enter b:")),int(input("Enter c:")))
+
+
+n= int(input("enter the number:"))
+arr=int(input(oviya))
+
+
+def sort_even_index_elements(arr):
+    #  even index
+    even_index_elements = [arr[i] for i in range(0, len(arr), 2)]
+    even_index_elements.sort()
+    j = 0
+    for i in range(0, len(arr), 2):
+        arr[i] = even_index_elements[j]
+        j += 1
+    return arr
+n = int(input("Enter the number of elements: "))
+arr = list(map(int, input(f"Enter {n} elements separated by space: ").split()))
+
+#  even index elements and  result
+sorted_array = sort_even_index_elements(arr)
+print("Array after sorting elements at even indices:", sorted_array)
+
+#print n number of rows(17.09.24)
+def print_seating_pattern(n):
+    for i in range(1,n+1):
+        for j in range(1,i+1):
+            print(j,end="")
+        print()
+n=int(input("Enter the number of rows:"))
+print_seating_pattern(n)
+
+
+#pyramid
+def print_pyramid_pattern(n):
+    for i in range(1,n+1):
+        print(" " *(n-i),end="")
+        for j in range(1,i+1):
+            print(j,end="")
+        print()
+n=int(input("Enter the number :"))
+print_pyramid_pattern(n)
+
+
+#reverse program
+def print_reverse_pattern(n):
+    for i in range(1,n+1):
+        print(" " *(n-i), end="")
+        for j in range(i, 0,-1):
+            print(j, end="")
+        print()
+n = int(input("Enter the number of rows:"))
+print_reverse_pattern(n)
+
+#triangle pattern
+def print_triangle_pattern(n):
+    for i in range(1,n+1):
+        print(" " *(n-i), end="")
+        for j in range(1,2*i):
+            print(j, end="")
+        print()
+n = int(input("Enter the number :"))
+print_triangle_pattern(n)
+#dimond pattern
+def print_triangle_pattern(n):
+    for i in range(1,n+1):
+        print(" " *(n-i), end="")
+        for j in range(1,2*i):
+            print(j, end="")
+        print()
+    for i in range(n-1,0,-1):
+        print(" " * (n - i), end="")
+        for j in range(1, 2 * i):
+            print(j, end="")
+        print()                
+n = int(input("Enter the number :"))
+print_triangle_pattern(n)
+
+#vowel find
+def count_vowel(word):
+    vowel = "aeiouAEIOU"
+    count = 0
+    for char in word:
+        if char in vowel:
+            count += 1
+    return count
+word = input("enter the word:")
+print(count_vowel(word))
+
+#duplicate find
+word = input("Enter a word: ")
+word = word.lower()
+letter_count = {}
+for letter in word:
+    if letter in letter_count:
+        letter_count[letter] += 1
+    else:
+        letter_count[letter] = 1
+print("Duplicate letters and their counts:")
+for letter, count in letter_count.items():
+    if count > 1:
+        print(f"{letter}: {count}")
+
+#substring
+def count_unique_substrings(username):
+    unique_substrings = set()
+    for i in range(len(username)):
+        for j in range(i + 1, len(username) + 1):
+            unique_substrings.add(username[i:j])
+    return len(unique_substrings)
+username = input("Enter the username: ")
+result = count_unique_substrings(username)
+print("Number of unique substrings:", result)'''
+
+#reaarange vowels
+def rearrange_vowels(description):
+    vowels = "aeiouAEIOU"
+    extracted_vowels = [char for char in description if char in vowels]
+    extracted_vowels.sort(reverse=True)
+    result = list(description)
+    vowel_index = 0
+    for i in range(len(result)):
+        if result[i] in vowels:
+            result[i] = extracted_vowels[vowel_index]
+            vowel_index += 1
+    return(result)
+description = input("Enter the word: ")
+output = rearrange_vowels(description)
+print("Output:", output)
